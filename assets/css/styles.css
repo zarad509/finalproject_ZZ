@@ -1,5 +1,102 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+html {
+	width: 100%;
+	height: 100%;
+}
+.background {
+	background-color: black;
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+body.cover {
+	background-color: black;
+	background-image: url(../img/cover.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+h1 {
+	font-size: 100px;
+	font-family: "Baskervville SC", serif;
+	font-optical-sizing: auto;
+	font-weight: 40px;
+	font-style: normal;
+	text-align: center;
+	color: #eef2db;
+}
+p {
+	font-size: 50px;
+	font-family: "Limelight", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	color: #eef2db;
+}
+.pop_room {
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+	justify-content: around;
+	background-image: url(../img/pop_room.png);
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #8aa8a6;
+	border-radius: 50px;
+}
+.country_room {
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+	justify-content: around;
+	background-image: url(../img/country_room.png);
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #8aa8a6;
+	border-radius: 50px;
+}
+.rock_room {
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+	justify-content: around;
+	background-image: url(../img/rock_room.png);
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #8aa8a6;
+	border-radius: 50px;
+}
+.hiphop_room {
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+	justify-content: around;
+	background-image: url(../img/hiphop_room.png);
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #8aa8a6;
+	border-radius: 50px;
+}
+.my-custom-row {
+     width: 100%;
+	 height: 600px;
+}
+
+.word {
+	font-size: 80px;
+	font-family: "Baskervville SC", serif;
+	font-optical-sizing: auto;
+	font-weight: 60px;
+	font-style: normal;
+	text-align: center;
+	color: #1a1a1a;
+	background-color: #eef2db;
+	width: 100%;
+	height: 600px;
+	margin: 10px;
+	border: 10px solid #8aa8a6;
+	border-radius: 50px;
+
 }
